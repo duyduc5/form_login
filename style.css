@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: purple;
+    background-image: linear-gradient(to right, rgb(122, 122, 253), rgb(240, 76, 240));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 62,5%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    height: 70%;
+}
+.avt{
+    background-color: silver;
+    width: 25%;
+    height: 50%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+.fa-robot{
+    font-size: 6rem;
+}
+.login{
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+.inf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    width: 105%;
+    height: 2.5rem;
+    border-radius: 15px;
+}
+input {
+    border: 0;
+    background-color: silver;
+    margin-left: 0.5rem;
+    font-family: 'Poppins', sans-serif
+}
+.tnd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    width: 105%;
+    height: 2.5rem;
+    border-radius: 15px;
+    margin-top: 0.5rem;
+}
+button{
+    background-color: green;
+    border: 0;
+    width: 105%;
+    height: 2.3rem;
+    border-radius: 15px;
+    margin-top: 1.5rem;
+    opacity: 1;
+    font-size: 90%;
+    color: white;
+}
+.font-size{
+    opacity: 0.5;
+}
+h1{
+    margin-top:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.fa-right-long{
+    margin-left: 5%;
+}
